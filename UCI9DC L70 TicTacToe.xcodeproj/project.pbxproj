@@ -12,6 +12,9 @@
 		F658555E1C8434230005D954 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F658555C1C8434230005D954 /* Main.storyboard */; };
 		F65855601C8434230005D954 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F658555F1C8434230005D954 /* Assets.xcassets */; };
 		F65855631C8434230005D954 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F65855611C8434230005D954 /* LaunchScreen.storyboard */; };
+		F658556E1C843E450005D954 /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = F658556B1C843E450005D954 /* board.png */; };
+		F658556F1C843E450005D954 /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = F658556C1C843E450005D954 /* cross.png */; };
+		F65855701C843E450005D954 /* nought.png in Resources */ = {isa = PBXBuildFile; fileRef = F658556D1C843E450005D954 /* nought.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		F658555F1C8434230005D954 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F65855621C8434230005D954 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F65855641C8434230005D954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F658556B1C843E450005D954 /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
+		F658556C1C843E450005D954 /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		F658556D1C843E450005D954 /* nought.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nought.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 		F65855571C8434230005D954 /* UCI9DC L70 TicTacToe */ = {
 			isa = PBXGroup;
 			children = (
+				F658556A1C843E2E0005D954 /* Images */,
 				F65855581C8434230005D954 /* AppDelegate.swift */,
 				F658555A1C8434230005D954 /* ViewController.swift */,
 				F658555C1C8434230005D954 /* Main.storyboard */,
@@ -62,6 +69,17 @@
 				F65855641C8434230005D954 /* Info.plist */,
 			);
 			path = "UCI9DC L70 TicTacToe";
+			sourceTree = "<group>";
+		};
+		F658556A1C843E2E0005D954 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F658556B1C843E450005D954 /* board.png */,
+				F658556C1C843E450005D954 /* cross.png */,
+				F658556D1C843E450005D954 /* nought.png */,
+			);
+			name = Images;
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +141,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F658556F1C843E450005D954 /* cross.png in Resources */,
+				F658556E1C843E450005D954 /* board.png in Resources */,
+				F65855701C843E450005D954 /* nought.png in Resources */,
 				F65855631C8434230005D954 /* LaunchScreen.storyboard in Resources */,
 				F65855601C8434230005D954 /* Assets.xcassets in Resources */,
 				F658555E1C8434230005D954 /* Main.storyboard in Resources */,
