@@ -30,68 +30,68 @@
                                             <outletCollection property="gestureRecognizers" destination="e4D-2Z-5cL" appends="YES" id="sPS-S9-fCd"/>
                                         </connections>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vW2-3G-2ze">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vW2-3G-2ze">
                                         <rect key="frame" x="14" y="14" width="82" height="82"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="vW2-3G-2ze" secondAttribute="height" multiplier="1:1" id="Foe-RM-MML"/>
                                         </constraints>
-                                        <state key="normal" title="Button" image="cross.png"/>
+                                        <state key="normal" image="cross.png"/>
                                     </button>
-                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JQ0-bv-YJP">
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JQ0-bv-YJP">
                                         <rect key="frame" x="232" y="14" width="82" height="82"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="JQ0-bv-YJP" secondAttribute="height" multiplier="1:1" id="8Bg-wK-nRT"/>
                                         </constraints>
-                                        <state key="normal" title="Button" image="cross.png"/>
+                                        <state key="normal" image="cross.png"/>
                                     </button>
-                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pUH-jS-FZS">
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pUH-jS-FZS">
                                         <rect key="frame" x="14" y="123" width="82" height="82"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="pUH-jS-FZS" secondAttribute="height" multiplier="1:1" id="98i-MV-02a"/>
                                         </constraints>
-                                        <state key="normal" title="Button" image="cross.png"/>
+                                        <state key="normal" image="cross.png"/>
                                     </button>
-                                    <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ljd-a1-b4o">
+                                    <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ljd-a1-b4o">
                                         <rect key="frame" x="123" y="123" width="82" height="82"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="ljd-a1-b4o" secondAttribute="height" multiplier="1:1" id="oT6-sW-qOZ"/>
                                         </constraints>
-                                        <state key="normal" title="Button" image="cross.png"/>
+                                        <state key="normal" image="cross.png"/>
                                     </button>
-                                    <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l8n-rl-yv5">
+                                    <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l8n-rl-yv5">
                                         <rect key="frame" x="232" y="123" width="82" height="82"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="l8n-rl-yv5" secondAttribute="height" multiplier="1:1" id="Fmj-Uv-A39"/>
                                         </constraints>
-                                        <state key="normal" title="Button" image="nought.png"/>
+                                        <state key="normal" image="nought.png"/>
                                     </button>
-                                    <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s5p-QI-sxw">
+                                    <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s5p-QI-sxw">
                                         <rect key="frame" x="14" y="232" width="82" height="82"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="s5p-QI-sxw" secondAttribute="height" multiplier="1:1" id="62C-qn-9Z8"/>
                                         </constraints>
-                                        <state key="normal" title="Button" image="nought.png"/>
+                                        <state key="normal" image="nought.png"/>
                                     </button>
-                                    <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sEB-Ec-eAK">
+                                    <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sEB-Ec-eAK">
                                         <rect key="frame" x="123" y="232" width="82" height="82"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="sEB-Ec-eAK" secondAttribute="height" multiplier="1:1" id="fyD-sD-F0z"/>
                                         </constraints>
-                                        <state key="normal" title="Button" image="cross.png"/>
+                                        <state key="normal" image="cross.png"/>
                                     </button>
-                                    <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dQV-KF-seX">
+                                    <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dQV-KF-seX">
                                         <rect key="frame" x="232" y="232" width="82" height="82"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="dQV-KF-seX" secondAttribute="height" multiplier="1:1" id="mOH-4p-VWv"/>
                                         </constraints>
-                                        <state key="normal" title="Button" image="nought.png"/>
+                                        <state key="normal" image="nought.png"/>
                                     </button>
-                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mk1-eD-jaY">
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mk1-eD-jaY">
                                         <rect key="frame" x="123" y="14" width="82" height="82"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="mk1-eD-jaY" secondAttribute="height" multiplier="1:1" id="9AY-L8-LZq"/>
                                         </constraints>
-                                        <state key="normal" title="Button" image="nought.png"/>
+                                        <state key="normal" image="nought.png"/>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nought have won!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Zqg-Uq-muH">
                                         <rect key="frame" x="20" y="129" width="288" height="70"/>
