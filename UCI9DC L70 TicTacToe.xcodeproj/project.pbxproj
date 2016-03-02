@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F637418D1C86B89C00F3212E /* TicTacToeGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = F637418C1C86B89C00F3212E /* TicTacToeGame.swift */; };
 		F65855591C8434230005D954 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F65855581C8434230005D954 /* AppDelegate.swift */; };
 		F658555B1C8434230005D954 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F658555A1C8434230005D954 /* ViewController.swift */; };
 		F658555E1C8434230005D954 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F658555C1C8434230005D954 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F637418C1C86B89C00F3212E /* TicTacToeGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TicTacToeGame.swift; sourceTree = "<group>"; };
 		F65855551C8434230005D954 /* UCI9DC L70 TicTacToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UCI9DC L70 TicTacToe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F65855581C8434230005D954 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F658555A1C8434230005D954 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				F658556A1C843E2E0005D954 /* Images */,
 				F65855581C8434230005D954 /* AppDelegate.swift */,
 				F658555A1C8434230005D954 /* ViewController.swift */,
+				F637418C1C86B89C00F3212E /* TicTacToeGame.swift */,
 				F658555C1C8434230005D954 /* Main.storyboard */,
 				F658555F1C8434230005D954 /* Assets.xcassets */,
 				F65855611C8434230005D954 /* LaunchScreen.storyboard */,
@@ -157,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F637418D1C86B89C00F3212E /* TicTacToeGame.swift in Sources */,
 				F658555B1C8434230005D954 /* ViewController.swift in Sources */,
 				F65855591C8434230005D954 /* AppDelegate.swift in Sources */,
 			);
@@ -306,6 +310,7 @@
 				F65855691C8434230005D954 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
