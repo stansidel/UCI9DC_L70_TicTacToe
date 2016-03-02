@@ -50,6 +50,9 @@ class TicTacToeGame {
         guard index < field.count else {
             throw TicTacToeGameError.InvalidFieldIndex
         }
+        guard activeGame else {
+            return false
+        }
         if field[index] == -1 {
             field[index] = player
             delegate?.fieldUpdated(index, player: playerByNumber(player))
