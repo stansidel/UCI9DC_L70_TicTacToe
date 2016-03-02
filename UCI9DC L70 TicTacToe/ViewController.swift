@@ -82,6 +82,11 @@ class ViewController: UIViewController, TicTacToeGameDelegate {
         }
     }
 
+    @IBAction func playAgain(sender: AnyObject) {
+        startNewGame()
+        positionLabelsWithAnimation(0.3)
+    }
+
     // MARK: - TicTacToeGameDelegate
 
     func fieldUpdated(index: Int, player: TicTacToeGamePlayer) {
@@ -110,11 +115,6 @@ class ViewController: UIViewController, TicTacToeGameDelegate {
             resultLabel.text = NSLocalizedString(String(format:"%@ have won!", playerString), comment: "Central label text for the win")
         }
         positionLabelsWithAnimation(1.0)
-    }
-
-    @IBAction func playAgain(sender: AnyObject) {
-        startNewGame()
-        positionLabelsWithAnimation(0.3)
     }
 
 }
